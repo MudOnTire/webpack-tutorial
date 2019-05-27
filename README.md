@@ -313,4 +313,4 @@ body{
 
 是不是没有想象中的那么难呢？当然webpack还有很多其他的功能和特性需要掌握，希望在参考本文之后大家进一步的学习更加顺利 😊。
 
-本文demo地址：https://gitee.com/MudOnTire/react-webpack-starter
+本文demo地址：https://github.com/MudOnTire/webpack-tutorial

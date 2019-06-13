@@ -241,7 +241,7 @@ module.exports = {
 
 在项目根目录下面新建`.babelrc`文件，配置我们安装的两个babel preset：
 
-**.babelrc**
+**.babelrc**./
 
 ```
 {
@@ -254,7 +254,7 @@ module.exports = {
 
 ## 生成react应用根节点
 
-**./src/index**
+**./src/index.jsinde**
 
 ```
 import React from 'react';

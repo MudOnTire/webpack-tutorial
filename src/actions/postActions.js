@@ -2,7 +2,7 @@ import { FETCH_POST, NEW_POST } from './types';
 
 function fetchPosts() {
   return (dispatch) => {
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    fetch('/api/posts')
       .then(res => res.json())
       .then(posts => dispatch({
         type: FETCH_POST,
@@ -13,7 +13,7 @@ function fetchPosts() {
 
 function createPost(post) {
   return (dispatch) => {
-    fetch('https://jsonplaceholder.typicode.com/posts', {
+    fetch('/api/posts', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
